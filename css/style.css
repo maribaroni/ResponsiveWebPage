@@ -1,0 +1,177 @@
+#wrapper{
+	margin: auto;
+	padding: auto;
+	font-family: Verdana;
+	padding: 30px;
+}
+
+.content{
+	width:720px;
+	margin: auto;
+	padding: 10px;
+	background-color: white;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	box-shadow: 0 0 1em gray;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("../images/slice.gif");
+	background-size: 10px;
+	background-color: white;
+	background-repeat: repeat;
+}
+
+.header{
+	text-align: center;
+	padding: 3px;
+	font-variant: small-caps;
+	text-shadow: 0 0 3px white, 0 0 4px black;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	hyphens: auto;
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: justify;
+	text-indent: 0px;
+}
+
+.article p{
+	text-indent: 0em;
+}
+
+blockquote {
+  border-left: 5px solid lightgray;
+  /*margin-left: 4em;*/
+  padding-left: 0.5em;
+  text-align: justify;
+  font-size: .95em;
+}
+
+.image{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-grow: 1;
+	align-items: center;
+}
+
+img{
+	height: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	max-width: 100%;
+}
+
+.footer{
+	font-size: .6em;
+	text-align: right;
+}
+
+@media(min-width: 320px){
+	h1 {
+		font-size: 90px;
+	}
+	h2 {
+		font-size: 80px;
+	}
+	h3 {
+		font-size: 60px;
+	}
+	h4 {
+		font-size: 45px;
+	}
+	h5 {
+		font-size: 34px;
+	}
+	h6 {
+		font-size: 26px;
+	}
+	p {
+		font-size: 20px;
+	}
+	.content{
+		width: 97%;
+	}
+	.header{
+		overflow-wrap: break-word;
+		word-wrap: break-word;
+		hyphens: auto;
+	}
+}
+	
+@media(min-width:480px){
+	h1{
+		font-size: 72px;
+	}
+	h2{
+		font-size: 60px;
+	}
+	h3{
+		font-size: 48px;
+	}
+	h4{
+		font-size: 36px;
+	}
+	h5{
+		font-size: 24px;
+	}
+	h6{
+		font-size: 21px;
+	}
+	p{
+		font-size: 18px;
+	}
+	.content{
+		width: 97%;
+	}
+	img{
+		width: 374px;
+		height: auto;
+	}
+}
+
+@media(min-width:720px){
+	h1{
+		font-size: 60px;
+	}
+	h2{
+		font-size: 48px;
+	}
+	h3{
+		font-size: 36px;
+	}
+	h4{
+		font-size: 24px;
+	}
+	h5{
+		font-size: 21px;
+	}
+	h6{
+		font-size: 18px;
+	}
+	p{
+		font-size: 16px;
+	}
+	.content{
+		width: 720px;
+	}
+	img{
+		width: 560px;
+		height: auto;
+	}
+}
+
+	 
